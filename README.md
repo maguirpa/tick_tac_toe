@@ -1,0 +1,2 @@
+# tick_tac_toe
+First version to the TicTacToe Assignment. Relied fairly heavily on video notes for the tougher parts. Hoping to do a second version with less guidance after going through the video one more time. 
