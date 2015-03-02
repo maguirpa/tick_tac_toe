@@ -81,6 +81,9 @@ end
 def gameplay (b)
   player_pick(b)
   draw_board(b)
+  if empty_space(b).empty? || winner(b)
+    return "Player"
+  end
   computer_pick(b)
   draw_board(b)  
 end

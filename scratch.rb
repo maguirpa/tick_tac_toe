@@ -1,3 +1,6 @@
-p (10/(15+5+8)).to_f
+hash = {}
+(1..9).each do |key|
+  hash[key] = ' Balls'
+end
 
-
+p hash
