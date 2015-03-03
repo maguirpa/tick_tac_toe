@@ -36,7 +36,7 @@ def player_pick (b)
     else
       puts "That square is taken, please pick again."
     end
-  end while square_taken == false
+  end while !square_taken
 end
 
 def winner (b)
